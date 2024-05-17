@@ -1,0 +1,56 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    height: 80px;
+    padding: 30px;
+    background-image: url(https://i.pinimg.com/originals/b0/eb/92/b0eb9271c6f47e7a63a2c95fce4a3cd5.gif);
+    font-family: "Roboto Mono";
+    font-size: x-small;
+    font-weight: lighter;
+    color: #000052;
+    float: left;  
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/b0/eb/92/b0eb9271c6f47e7a63a2c95fce4a3cd5.gif);
+    
+}
+
+logo{
+    position: fixed;
+    left: 0;
+   
+    }
+
+navbar{
+    overflow: hidden;
+    font-weight: bolder;
+    position: fixed;
+    left: 0;
+       
+}
+
+a:link{
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  float: left;
+  padding-left: 15px;
+}
+
+a:link::before{
+content: "";
+position: absolute;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s; 
+transition: all 0.3s ease-in-out 0s; 
+}
+
+a:link:hover{
+    text-decoration: underline;
+    color: #000052;
+}
